@@ -10,7 +10,7 @@ public void setup()
  }
 }  
 
-public boolean isPrime(double dNum)  
+public boolean isPrime(double dNum) 
 {   
  int score = 0;
   if(dNum <= 1)
