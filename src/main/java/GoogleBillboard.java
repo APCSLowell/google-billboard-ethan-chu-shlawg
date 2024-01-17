@@ -4,7 +4,7 @@ public void setup()
 {            
  for(int i = 10; i < ee.length(); i++){
    if(isPrime(Double.parseDouble(ee.substring(i-10, i)))){
-     System.out.println(ee.substring(i-10, i));
+     System.out.print(ee.substring(i-10, i));
      break;
    }
  }
