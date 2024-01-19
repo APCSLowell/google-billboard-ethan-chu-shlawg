@@ -3,7 +3,7 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		 for(int i = 10; i < e.length(); i++){
 		   if(isPrime(Double.parseDouble(e.substring(i-10, i)))){
-		     System.out.println(e.substring(i-10, i));
+		     System.out.println(Double.parseDouble(e.substring(i-10, i)));
 		     break;
 		   }
 		 }
